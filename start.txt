@@ -1,0 +1,22 @@
+# git config name, email 설정
+$ git config --list
+$ git config --get user.name
+$ git config --get user.email
+
+# global 전역
+$ git config --global user.name ""
+$ git config --global user.email ""
+$ git config --global --get init.defaultBranch
+$ git config --global init.defaultBranch main
+
+# local 저장소 우선순위 높은 계정
+$ git config --local user.name ""
+$ git config --local user.email ""
+
+# git name, email 초기화
+$ git config --unset user.name
+$ git config --unset user.email
+
+# global 초기화
+$ git config --unset --global user.name
+$ git config --unset --global user.email
